@@ -4,9 +4,9 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 
 const navLinks = [
-    { name: "Home", href: "/dashboard" },
-    { name: "Home", href: "/" },
-    { name: "Home", href: "/profile" },
+    { name: "Dashboard", href: "/dashboard" },
+    { name: "Profile", href: "/profile" },
+    { name: "Settings", href: "/settings" },
 ]
 
 export default function Navbar() {
